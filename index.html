@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="diagram-design-skin" content="sparse-attention">
+<title>Calendar Veil</title>
+<!-- house style: same-origin, no CDN, no web fonts (safe under a 'self'-only CSP) -->
+<link rel="stylesheet" href="vendor/house/tokens.css">
+<link rel="stylesheet" href="vendor/house/primer.css">
+</head>
+<body>
+<main class="primer">
+  <p class="eyebrow">WINDOWS APP</p>
+  <h1>Calendar Veil</h1>
+  <p class="lede">A small Windows tray app for a household PC. Ten minutes before each event on your Google Calendar,
+  it floats a see-through reminder over whatever you're doing, and for Zoom or Google Meet events it can join the
+  call for you with camera and microphone off.</p>
+
+  <h2 id="what">What it does</h2>
+  <table>
+    <tr><th>When</th><th>What you see</th></tr>
+    <tr><td>10 minutes before a timed event</td><td>A translucent "veil" with the time and title. Clicks pass through it until you click it.</td></tr>
+    <tr><td>Event with a Zoom or Meet link</td><td>A <b>Join</b> button that enters the meeting with camera and mic off.</td></tr>
+    <tr><td>First use of the PC each morning</td><td>One veil listing today's all-day events.</td></tr>
+    <tr><td>Any time</td><td>A tray icon showing your next event and today's list.</td></tr>
+  </table>
+
+  <h2 id="google">Google access</h2>
+  <p>Calendar Veil asks Google for one permission: <b>read-only access to your calendars</b>
+  (<code>calendar.readonly</code>). It cannot create, change or delete events, and it does not read email,
+  contacts or anything else. Each person signs in from their own Windows account, and nobody else on the PC can
+  see their calendar.</p>
+  <p>How your data is handled is described in the <a href="privacy.html">privacy policy</a>.</p>
+
+  <h2 id="contact">Contact</h2>
+  <p>Calendar Veil is a personal project, not a commercial product. Questions can go to the support email shown on
+  Google's sign-in screen for this app.</p>
+</main>
+</body>
+</html>

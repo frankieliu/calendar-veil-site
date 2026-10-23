@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="diagram-design-skin" content="sparse-attention">
+<title>Calendar Veil: privacy policy</title>
+<!-- house style: same-origin, no CDN, no web fonts (safe under a 'self'-only CSP) -->
+<link rel="stylesheet" href="vendor/house/tokens.css">
+<link rel="stylesheet" href="vendor/house/primer.css">
+</head>
+<body>
+<main class="primer">
+  <p class="eyebrow">CALENDAR VEIL</p>
+  <h1>Privacy policy</h1>
+  <p class="lede">Calendar Veil reads your Google Calendar so it can remind you of events on your own Windows PC.
+  Your calendar data stays on that PC and is never sent to anyone except Google.</p>
+
+  <h2 id="read">What it reads</h2>
+  <p>With your permission (the Google scope <code>calendar.readonly</code>), the app reads the list of your
+  calendars and the events from now until the end of tomorrow: titles, times, locations, descriptions, meeting
+  links and your own response (accepted, declined). It does not read any other Google data.</p>
+
+  <h2 id="stored">What it stores, and where</h2>
+  <table>
+    <tr><th>Item</th><th>Where</th><th>Why</th></tr>
+    <tr><td>Google sign-in token</td><td>Your Windows account's local app folder, encrypted with Windows (DPAPI) so only your Windows account can read it</td><td>So you don't have to sign in every time</td></tr>
+    <tr><td>A copy of upcoming events</td><td>Same local folder</td><td>So reminders still work if the internet drops</td></tr>
+    <tr><td>Which reminders were already shown</td><td>Same local folder</td><td>So the same reminder isn't shown twice</td></tr>
+    <tr><td>A log file (includes event titles)</td><td>Same local folder</td><td>To troubleshoot problems on that PC</td></tr>
+  </table>
+  <p>Nothing is uploaded to the developer or any other server. The app has no analytics, advertising or tracking.
+  It talks only to Google's Calendar API, and, when you press Join, opens the meeting in Zoom or your browser.</p>
+
+  <h2 id="use">How the data is used</h2>
+  <p>Only to show reminders and the tray list on your PC, and to open meeting links when you ask. Calendar Veil's
+  use of information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+  including the Limited Use requirements.</p>
+
+  <h2 id="remove">Removing your data</h2>
+  <ul>
+    <li><b>Sign out</b> from the tray menu deletes your token and the copy of your events from the PC.</li>
+    <li>You can also revoke the app's access at any time at
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+  </ul>
+
+  <h2 id="contact">Contact</h2>
+  <p>Questions about this policy can go to the support email shown on Google's sign-in screen for Calendar Veil.
+  Last updated 23 October 2026.</p>
+  <p><a href="index.html">← Calendar Veil</a></p>
+</main>
+</body>
+</html>

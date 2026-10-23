@@ -1,0 +1,64 @@
+/* House style tokens -- skin "sparse-attention", generated from diagram-design/references/style-guide.md
+   by scripts/emit-house-style.py. Do not edit by hand: re-run the script after a skin change. */
+:root {
+  --hs-paper: #eef1ec;
+  --hs-paper-2: #ffffff;
+  --hs-ink: #14201e;
+  --hs-muted: #4a5754;
+  --hs-soft: #64706c;
+  --hs-rule: #c9d0c7;
+  --hs-accent: #b23a48;
+  --hs-link: #1d5dd8;
+  --hs-warning: #d07a1b;
+  --hs-warning-tint: #fbf4e8;
+  --hs-tint: #e2e7df;
+  --hs-code-ink: #1e2a28;
+  --hs-code-bg: #e8eee9;
+  --hs-series-1: #157a61;
+  --hs-series-2: #6b3fa0;
+  --hs-series-3: #2e86ab;
+  --hs-rule-hair: rgba(20,32,30,0.12);
+  --hs-accent-tint: rgba(178,58,72,0.08);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+  --hs-paper: #14201e;
+  --hs-paper-2: #25312e;
+  --hs-ink: #eef1ec;
+  --hs-muted: #adb2ae;
+  --hs-soft: #8c938f;
+  --hs-rule: rgba(201,208,199,0.25);
+  --hs-accent: #c56b76;
+  --hs-link: #618ee4;
+  --hs-warning: #e0964a;
+  --hs-warning-tint: rgba(208,122,27,0.12);
+  --hs-tint: #2c3835;
+  --hs-code-ink: #e8eee9;
+  --hs-code-bg: #1e2a28;
+  --hs-series-1: #157a61;
+  --hs-series-2: #7d56ab;
+  --hs-series-3: #2e86ab;
+  --hs-rule-hair: rgba(238,241,236,0.14);
+  --hs-accent-tint: rgba(197,107,118,0.14);
+  }
+}
+:root[data-theme="dark"] {
+  --hs-paper: #14201e;
+  --hs-paper-2: #25312e;
+  --hs-ink: #eef1ec;
+  --hs-muted: #adb2ae;
+  --hs-soft: #8c938f;
+  --hs-rule: rgba(201,208,199,0.25);
+  --hs-accent: #c56b76;
+  --hs-link: #618ee4;
+  --hs-warning: #e0964a;
+  --hs-warning-tint: rgba(208,122,27,0.12);
+  --hs-tint: #2c3835;
+  --hs-code-ink: #e8eee9;
+  --hs-code-bg: #1e2a28;
+  --hs-series-1: #157a61;
+  --hs-series-2: #7d56ab;
+  --hs-series-3: #2e86ab;
+  --hs-rule-hair: rgba(238,241,236,0.14);
+  --hs-accent-tint: rgba(197,107,118,0.14);
+}
